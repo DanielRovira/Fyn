@@ -1,0 +1,130 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: auto;
+  /* padding: 1rem 0; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  position: sticky;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  top: 0;
+  background-color: white;
+  box-shadow: 5px;
+  padding: 10px;
+  z-index: 999;
+}
+
+.Header .HeaderButtons {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  height: min-content;
+  margin: 10px;
+}
+.Header .HeaderButtons a {
+  text-decoration: none;
+  color: black;
+}
+
+.Header .HeaderLoginButtons {
+  display: flex;
+  gap: 20px;
+  height: min-content;
+  margin: 10px;
+}
+
+.Header .Logo {
+  display: flex;
+  gap: 10px;
+}
+
+.Header .Logo img {
+  height: 60px;
+  margin-top: -5px;
+}
+
+.Section01 {
+  display: flex;
+  padding: 0 50px;
+}
+
+.Section01 h1 {
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.Section01 h2 {
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: teal;
+}
+
+.Section01 h3 {
+  /* font-size: 32px; */
+  font-weight: 500;
+  text-transform: capitalize;
+  /* color: teal; */
+}
+
+.Section01 .Section01subSection01 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+.Section01 .Section01subSection01 .GetStartedButton {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Section01 .Section01subSection01 .GetStartedButton button {
+  font-size: 18px;
+}
+
+.Section01 .Section01subSection02 {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.Section01 .Section01subSection02 img {
+  height: 700px;
+}
+
+.Section02 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(53, 106, 104);
+  border-radius: 50px 50px 0 0;
+  padding: 20px;
+}
+
+.Section02 .Section02-title {
+  text-align: center;
+  color: azure;
+}
+
+.Section02 .Section02-title h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.Section02 .Section02-content {
+  text-align: center;
+}
