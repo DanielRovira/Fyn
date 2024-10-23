@@ -25,8 +25,8 @@ function App() {
           <a href="#about">About us</a>
         </div>
         <div className='HeaderLoginButtons'>
-          <Button variant="outlined" href='https://fyn.onrender.com'>Login</Button>
-          <Button variant="contained" href='https://fyn.onrender.com/signup'>Sign Up</Button>
+          <Button variant="outlined" href='https://fyn-app.onrender.com/login'>Login</Button>
+          <Button variant="contained" href='https://fyn-app.onrender.com/signup'>Sign Up</Button>
         </div>
       </header>
       <section className='Section01' id="home">
@@ -35,8 +35,8 @@ function App() {
           <h2>understand better what happens in your business</h2>
           <h3>create your free account and try it yourself!</h3>
           <div className='GetStartedButton'>
-            <Button variant="contained" size="large" href='https://fyn.onrender.com/signup' >Get Started</Button>
-            <Button variant="outlined" size="large" href='https://fyn.onrender.com/signup' >See our plans</Button>
+            <Button variant="contained" size="large" href='https://fyn-app.onrender.com/signup' >Get Started</Button>
+            <Button variant="outlined" size="large" href='https://fyn.onrender.com/#plans' >See our plans</Button>
           </div>
         </div>
         <div className='Section01subSection02'>
